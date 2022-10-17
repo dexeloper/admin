@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+.um-container {
+  width: 100%;
+  height: 500px;
+  margin-top: 25px;
+}
+
+.user-main-search-container {
+  width: 700px;
+  height: 100px;
+  border-radius: 25px;
+  margin: 5px auto 25px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0px 20px;
+}
+
+.user-sort {
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border: 2.5px solid #cfcfcf;
+  border-radius: 50px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.add-user-btn {
+  width: 130px;
+  height: 50px;
+  font-size: 17px;
+  background-color: #f9a23f;
+  color: white;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-manage-head {
+  width: 100%;
+  font-size: 24px;
+  margin: 0px 25px 25px 25px;
+}
+
+.user-manage-container-block {
+  width: 1200px;
+  min-height: 500px;
+  margin: 10px auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+.user-manage-head-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-emp-name {
+  width: 170px;
+  font-size: 14px;
+  color: #f9a23f;
+  font-weight: bold;
+}
+
+.user-emp-email {
+  width: 225px;
+  font-size: 14px;
+  color: #f9a23f;
+  font-weight: bold;
+}
+
+.user-emp-contactno {
+  width: 120px;
+  font-size: 14px;
+  color: #f9a23f;
+  font-weight: bold;
+}
+
+.user-emp-joindate {
+  width: 110px;
+  font-size: 14px;
+  color: #f9a23f;
+  font-weight: bold;
+}
+
+.user-emp-role {
+  width: 80px;
+  font-size: 14px;
+  color: #f9a23f;
+  font-weight: bold;
+}
+
+.user-emp-enable {
+  width: 130px;
+  font-size: 14px;
+  color: #f9a23f;
+  font-weight: bold;
+}
+
+.user-emp-target {
+  width: 100px;
+  font-size: 14px;
+  color: #f9a23f;
+  font-weight: bold;
+}
+
+.user-emp-action {
+  width: 100px;
+  font-size: 14px;
+  color: #f9a23f;
+  font-weight: bold;
+}
+
+.headrow-divider {
+  margin: 15px 0px;
+  opacity: 0.35;
+  position: relative;
+  z-index: -10;
+}
+
+.user-emp-entered {
+  font-size: 14px;
+  color: black !important;
+  font-weight: normal !important;
+}
+
+/**************************************/
+
+#main-overlay-container {
+  display: none;
+  overflow-y: scroll;
+}
+
+.overlay-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 0;
+}
+
+.user-overlay-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overlay-close {
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  background-color: #ff5e5e;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Varela Round", sans-serif;
+}
+
+.add-user-overlay {
+  position: relative;
+  z-index: 10;
+  width: 1000px;
+  min-height: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 50px auto;
+  background-color: white;
+  overscroll-behavior: contain;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.add-user-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.add-user-divider {
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #ffbd42;
+  margin-top: 20px;
+}
+
+.user-manage-container {
+  margin: 15px 0px;
+}
+
+.user-manage-form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-manage-form-element {
+  width: 275px;
+  height: 40px;
+  outline: none;
+  border: 2.5px solid #cfcfcf;
+  border-radius: 15px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  transition: all 0.25s ease-in;
+}
+
+.user-manage-form-element:focus {
+  border: 2.5px solid #ffbd42;
+  transition: all 0.25s ease-in;
+}
+
+.user-manage-form-element-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px 10px 0px;
+}
+
+.user-manage-form-label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.add-user-submit-btn {
+  width: 230px;
+  height: 50px;
+  font-size: 17px;
+  background-color: #f9a23f;
+  color: white;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  margin: 25px auto 0px auto;
+}
+
+.user-manage-form-per-header {
+  font-size: 24px;
+  margin-top: 25px;
+}

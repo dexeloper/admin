@@ -1,0 +1,7 @@
+.main-app-container {
+  display: flex;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
